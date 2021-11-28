@@ -6,11 +6,11 @@ export default class UserSession {
     id: string;
 
     @Column("char", { length: 36 })
-    username: string;
+    userId: string;
 
     @CreateDateColumn()
     createdAt: string;
 
-    @Column()
-    expiressAt: string;
+    @Column("datetime")
+    expiresAt: string;
 }
