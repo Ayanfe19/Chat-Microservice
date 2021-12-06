@@ -5,7 +5,14 @@
     "@types/uuid": "^8.3.3"
   },
   "dependencies": {
+    "apollo-server": "^3.5.0",
+    "apollo-server-express": "^3.5.0",
+    "config": "^3.3.6",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "dayjs": "^1.10.7",
+    "express": "^4.17.1",
+    "got": "^11.8.3",
     "uuid": "^8.3.2"
   }
 }
